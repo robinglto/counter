@@ -1,0 +1,34 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="./style.css">
+    <title>Counter</title>
+</head>
+<body class="bg-black text-white font-sans  " >
+    <div class="container">
+
+        <div>
+            <div style="display: flex; justify-content:center;" class="text-4xl"><strong>Text Counter</strong></div>
+            <p>Counter of letters, words, symbols and lines in real time</p> <br>
+            <textarea cols="51" rows="10" id="text" placeholder="Write your text here..." class=" rounded-lg text-black"></textarea>
+
+            <div class="datos">
+                <div id="status" class="bg-indigo-700 shadow-xl shadow-indigo-700/50 rounded-md p-2 space-x-4">
+                    <span id="words">Words</span>
+                    <span id="lines">Lines</span>
+                    <span id="character">Character</span>
+                    <span id="symbols">Symbols</span>
+                </div>
+            </div>
+        </div>
+
+
+
+    </div>
+    
+</body>
+<script defer src="./main.js"></script>
+</html>
